@@ -1,0 +1,25 @@
+{
+  "name": "official-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@arco-design/web-react": "^2.54.1",
+    "@splinetool/react-spline": "^2.2.6",
+    "next": "13.4.19",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "daisyui": "^3.9.3",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}

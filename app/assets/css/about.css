@@ -1,0 +1,85 @@
+.about-title-us {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 0 5px 5px 0;
+}
+
+.about-title {
+    background-color: #FC3E01;
+}
+
+.about-con-left-menu {
+    width: 158px;
+    height: 100%;
+    min-height: 360px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+}
+
+.left-menu-item {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    @apply select-none cursor-pointer mb-1;
+}
+
+.left-menu-item-select {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right-content {
+    min-height: 360px;
+    width: 862px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px 15px;
+}
+
+.right-content .title {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+.right-content .content {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.about-bg {
+    width: 492px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    -webkit-user-drag: none;
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+}
+
+.zhishichanquan {
+    width: 200px;
+    height: 135px;
+}

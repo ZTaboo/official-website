@@ -1,0 +1,50 @@
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: #0D0D0D;
+    background-size: auto 100%; /* 设置宽度自动适应高度 */
+    min-width: 1040px;
+    position: relative;
+}
+
+.header .hd-box {
+    margin: auto;
+    height: 65px;
+    width: 1040px;
+    display: flex;
+    align-items: center;
+}
+
+.hd-box .menu-item {
+    width: 110px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.hd-box .menu-item-select {
+    background: linear-gradient(270deg, rgba(238, 238, 238, 0) 0.02%, rgba(227, 227, 227, 0.2) 49.33%, rgba(216, 216, 216, 0) 100%);
+    color: #FC3E01;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-image: linear-gradient(90deg, rgba(252, 62, 1, 0) 0.08%, rgba(252, 62, 1, 1) 51.76%, rgba(252, 62, 1, 0) 100%) 1;
+}
+
+.hd-box .login-btn {
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 3px 8px;
+}
+
+.hd-box .registered-btn {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 3px 8px;
+}

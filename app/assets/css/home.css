@@ -1,0 +1,49 @@
+.banner-item {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.banner-item-select {
+    border: 1px solid #FFD33D;
+}
+
+.banner-item-more {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #373738;
+    color: #A7A7A7;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*商城区域*/
+.home-mall-font {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.mall-description {
+    color: #8E8E8E;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mall-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}

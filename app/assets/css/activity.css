@@ -1,0 +1,167 @@
+.activity-box {
+    margin-top: 101px;
+    width: 100%;
+    @apply sticky select-none;
+}
+
+.activity-new {
+    position: absolute;
+    top: 90px;
+    left: 34px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.activity-new-children {
+    position: absolute;
+    top: 52px;
+    left: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.activity-line {
+    border-left: 1px solid grey;
+    height: 100%;
+    @apply flex items-center;
+}
+
+.first {
+    border-left: none;
+}
+
+.first:before {
+    content: ' ';
+    border-left: 1px solid grey;
+    display: inline-block;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.last {
+    border-left: none;
+}
+
+.last:before {
+    content: ' ';
+    border-left: 1px solid grey;
+    display: inline-block;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.activity-2023 {
+    font-weight: 600;
+    font-size: 48px;
+    background-image: linear-gradient(270deg, rgba(252, 62, 1, 1) 0.05%, rgba(255, 140, 57, 1) 99.96%);
+    -webkit-background-clip: text; /* 用于兼容WebKit浏览器，如Chrome和Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.activity-2023-null {
+    width: 118px;
+}
+
+.activity-content {
+    height: 120px;
+    width: 687px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    padding-top: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.activity-content .toBtn {
+    width: 80px;
+    height: 32px;
+    background-color: red;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    right: 0;
+    top: 70px;
+    @apply absolute;
+}
+
+.activity-content .title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+.activity-content .introduce {
+    color: #ACACAC;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+.page-btn {
+    height: 23px;
+    width: 23px;
+    margin-left: 7px;
+    border: 1px solid;
+    border-image: linear-gradient(to bottom, #373737, #000) 1;
+    border-radius: 4px !important;
+    @apply flex justify-center items-center;
+}
+
+.page-btn-select {
+    border-radius: 4px;
+    background-color: red;
+}
+
+.right {
+    transform: scaleX(-1);
+}
+
+.top-font {
+    color: #ACACAC;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 40px 50px;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    border-radius: 8px;
+}
+
+.content .title {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
