@@ -59,7 +59,7 @@ export default function Activity() {
         getData(1, 5)
     }, [])
     return (
-        <div style={{height: '100%',minWidth:'1040px',backgroundColor:'#0d0d0d'}}>
+        <div style={{height: '100%', minWidth: '1040px', backgroundColor: '#0d0d0d'}}>
             <Header router={"/activity"}></Header>
             <Image alt={'small'} src={bgSmall}
                    className={'no-drag select-none'}
@@ -76,7 +76,7 @@ export default function Activity() {
                    }}
                    priority></Image>
             <Box>
-                <div className={'activity-box'}>
+                <div className={'activity-box'} style={{minHeight: 'calc(100vh - 530px)'}}>
                     {/*    第一个元素*/}
                     <div className={list.length !== 0 ? 'flex items-center justify-between' : 'hidden'}
                          style={{height: '205px'}}>
