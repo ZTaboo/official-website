@@ -19,7 +19,7 @@ import "@/app/assets/css/home.css"
 export default function Home() {
 
     return (
-        <main>
+        <main style={{minWidth: '1040px'}}>
             <Header router={'/'}></Header>
             {/*定位背景*/}
             <div className={'absolute'} style={{top: '125px', left: '0'}}>
